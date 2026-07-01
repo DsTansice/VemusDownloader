@@ -4,7 +4,7 @@
 
 ## 技术栈
 
-- Next.js 15 + React 19
+- Next.js 15.2 + React 19
 - TypeScript
 - Tailwind CSS
 - Puppeteer Core + @sparticuz/chromium (Vercel 适配)
