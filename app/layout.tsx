@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "音乐解析工具 - MP3提取下载",
-  description: "解析腾讯音乐/酷狗分享链接，提取MP3音频并提供下载",
+  title: "酷狗Vemus音乐解析下载器",
+  description: "解析酷狗Vemus/腾讯音乐分享链接，提取MP3音频并提供下载",
 };
 
 export default function RootLayout({

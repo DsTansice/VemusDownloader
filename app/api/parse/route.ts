@@ -72,7 +72,8 @@ async function scrapeAudioFromPage(url: string) {
       timeout: 30000,
     });
 
-    await page.waitForTimeout(3000);
+    // Puppeteer v23+ 移除了 waitForTimeout，改用 setTimeout 包装
+    await new Promise((resolve) => setTimeout(resolve, 3000));
 
     const pageInfo = await page.evaluate(() => {
       const result: {

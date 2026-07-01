@@ -1,6 +1,6 @@
-# 音乐解析工具
+# 酷狗Vemus音乐解析下载器
 
-解析腾讯音乐/酷狗分享链接，提取 MP3 音频并提供下载。
+解析腾讯音乐/酷狗Vemus分享链接，提取 MP3 音频并提供下载。
 
 ## 技术栈
 
@@ -29,7 +29,7 @@ npm run dev
 
 - `https://t.tencentmusic.com/v/xxx` (腾讯音乐短链)
 - `https://activity.kugou.com/...` (酷狗活动页)
-- `https://vemus-h5.tencentmusic.com/...` (酷狗H5分享页)
+- `https://vemus-h5.tencentmusic.com/...` (酷狗Vemus H5分享页)
 
 ## 注意事项
 

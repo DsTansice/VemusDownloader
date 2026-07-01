@@ -93,10 +93,10 @@ export default function MusicParser() {
           <Music className="w-8 h-8 text-white" />
         </div>
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          音乐解析工具
+          酷狗Vemus音乐解析下载器
         </h1>
         <p className="text-gray-500">
-          粘贴腾讯音乐/酷狗分享链接，一键提取 MP3 音频
+          粘贴腾讯音乐/酷狗Vemus分享链接，一键提取 MP3 音频
         </p>
       </div>
 
@@ -324,7 +324,7 @@ export default function MusicParser() {
 
       <div className="mt-10 text-center text-xs text-gray-400">
         <p>仅供学习研究使用，请遵守相关版权法律法规</p>
-        <p className="mt-1">支持解析：腾讯音乐短链、酷狗音乐分享页</p>
+        <p className="mt-1">支持解析：腾讯音乐短链、酷狗Vemus音乐分享页</p>
       </div>
     </div>
   );
